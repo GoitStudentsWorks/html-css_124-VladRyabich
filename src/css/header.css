@@ -42,3 +42,8 @@
 .nav-link.active::after {
   background: #747bff;
 }
+
+/* Menu styles */
+.menu-btn {
+  background-color: transparent;
+}
