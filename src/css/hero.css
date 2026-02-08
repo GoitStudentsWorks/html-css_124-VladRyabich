@@ -1,6 +1,5 @@
 .hero-section {
-  padding: 0px;
-  height: 100vh;
+  padding: 108px 0;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/img/hero-img.jpg);
@@ -13,10 +12,6 @@
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(/img/2x/hero-img@2x.jpg);
   }
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .hero-container {
@@ -58,16 +53,20 @@
 
 .hero-link:hover,
 .hero-link:focus {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .hero-link:active {
-    opacity: 1;
-    box-shadow: none
+  opacity: 1;
+  box-shadow: none;
 }
 
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 312px 0;
+  }
+
   .hero-container {
     padding: 0 176px 0 32px;
   }
@@ -75,6 +74,10 @@
 
 /* Styles for Desktop devices */
 @media screen and (min-width: 1440px) {
+  .hero-section {
+    padding: 259px 0;
+  }
+
   .hero-container {
     padding: 0 816px 0 64px;
   }
