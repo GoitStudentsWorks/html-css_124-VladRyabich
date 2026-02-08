@@ -1,7 +1,3 @@
-.sub-section {
-  padding: 16px, 0;
-}
-
 .sub-position {
   display: flex;
   flex-direction: column;
@@ -19,7 +15,12 @@
   width: 288px;
   margin-bottom: 24px;
 }
-
+.sub-br {
+  display: none;
+}
+.sub-desc-form-cont {
+  margin-bottom: 32px;
+}
 .sub-about {
   font-family: var(--font-family);
   font-weight: 400;
@@ -125,9 +126,6 @@
   border-radius: 40px;
 }
 @media screen and (min-width: 768px) {
-  .sub-section {
-    padding: 32px, 0;
-  }
   .sub-title {
     width: 704px;
   }
@@ -153,5 +151,36 @@
   .sub-img {
     width: 100%;
     height: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sub-title {
+    width: 640px;
+  }
+  .sub-br {
+    display: block;
+  }
+  .sub-desc-form-cont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .sub-position {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+  .sub-about {
+    width: 640px;
+  }
+  .sub-form-container {
+    gap: 16px;
+  }
+  .sub-agreement {
+    width: 513px;
+  }
+  .sub-img {
+    width: 640px;
   }
 }
