@@ -1,4 +1,9 @@
 /* Styles for Mobile devices */
+
+.location-content {
+    margin-bottom: 32px;
+}
+
 .location-find {
     display: block;
     font-weight: 600;
@@ -18,12 +23,8 @@
     margin-bottom: 40px;
 }
 
-.location-list-item:last-child {
-    margin-bottom: 32px;
-}
-
 .location-icon {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .location-icon,
@@ -56,7 +57,7 @@
 .location-address {
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .location-directions {
@@ -118,6 +119,10 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
+
+    .location-content {
+        min-width: 419px;
+    }
     .location-container {
         display: flex;
         column-gap: 24px;
