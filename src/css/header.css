@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.logo {
+  line-height: 0;
+}
+
 .icon-logo {
   padding: 0 10px;
 }
@@ -25,10 +29,42 @@
   padding: 12px;
 }
 
-.nav-menu {}
+.nav-menu {
+  display: none;
+}
 
-.nav-list {}
+.nav-list {
+  display: flex;
+  gap: 32px;
+}
 
 .nav-item {}
 
 .nav-link {}
+
+/* Table styles */
+@media only screen and (min-width: 768px) {
+  .header-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-menu {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}
+
+/* Desktop styles */
+/* @media only screen and (min-width: 1440px) {
+  
+} */
