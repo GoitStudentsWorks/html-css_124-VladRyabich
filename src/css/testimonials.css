@@ -17,7 +17,7 @@
     padding: 32px;
     display: flex;
     flex-direction: column;
-    flex-basis: 
+    flex-basis: 100%;
 }
 
 .rating-stars-list {
