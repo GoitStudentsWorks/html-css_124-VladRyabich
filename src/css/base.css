@@ -75,12 +75,12 @@ button {
   letter-spacing: -0.01em;
 }
 
-/* Table styles */
+/* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
 
 }
 
-/* Desktop styles */
+/* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
   .title {
     font-size: 48px;
