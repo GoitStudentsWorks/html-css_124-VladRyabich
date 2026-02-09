@@ -17,8 +17,14 @@
   margin-bottom: 32px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+  .sub-desc-form-cont {
+    align-items: center;
+  }
+}
+
 .sub-about {
   font-family: var(--font-family);
   font-weight: 400;
