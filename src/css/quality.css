@@ -30,6 +30,7 @@
 }
 
 .benefits-subtitle {
+	font-size: 20px;
 	margin-bottom: 8px;
 }
 
@@ -52,6 +53,11 @@
 
 	.benefits-item:last-child {
 		width: 100%;
+	}
+
+	.benefits-item-text:last-child {
+		max-width: 440px;
+		margin: 0 auto;
 	}
 
 	.benefits-img {
