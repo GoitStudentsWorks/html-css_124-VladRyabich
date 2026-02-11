@@ -1,5 +1,43 @@
 <section class="section">
-	<div class="container">
-		subscribe
-	</div>
+  <div class="container">
+    <div class="sub-position">
+      <div class="sub-desc-form-cont">
+        <h2 class="sub-title title">
+          Join Our Coffee<br class="sub-br" />
+          Community
+        </h2>
+        <p class="sub-about">
+          Experience the joy of coffee delivered right to your door. Sign up
+          today!
+        </p>
+        <div class="sub-form-container">
+          <label for="sub-input-valid">
+            <input
+              required
+              type="email"
+              class="sub-input"
+              placeholder="Your Email Here"
+              id="sub-input-valid"
+            />
+            <span class="err-msg">Email is required</span>
+          </label>
+          <button class="sub-btn" type="submit" data-modal-open>
+            <span class="sub-btn-txt">Subscribe</span>
+
+            <svg class="sub-btn-icon" width="24" height="24">
+              <use href="/img/icons/icons.svg#icon-chevrons-right"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="sub-agreement">
+          By clicking Get Started, you agree to our Terms and Conditions.
+        </p>
+      </div>
+      <img
+        srcset="/img/subscribe-img.jpg 1x, /img/2x/subscribe-img@2x.jpg 2x"
+        alt="Office worker working at a computer"
+        class="sub-img"
+      />
+    </div>
+  </div>
 </section>
