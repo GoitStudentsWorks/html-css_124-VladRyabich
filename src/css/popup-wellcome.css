@@ -131,6 +131,7 @@
 
 }
 
+/* Styles for Desktop devices */
 @media screen and (min-width: 1440px) {
     .popup-wellcome {
         max-width: 866px;
